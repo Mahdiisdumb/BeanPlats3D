@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GameObject Profile
   m_EditorClassIdentifier:
   components:
-  - {fileID: 11400000, guid: d16e7ec2106ae2a4dbc8a4de0ddcefd4, type: 2}
-  - {fileID: 11400000, guid: 7c161223219045d44bbc74f53563d89c, type: 2}
+  - {fileID: 11400000, guid: 61165489de4c5a1469c7c554ea497b7a, type: 2}
+  - {fileID: 11400000, guid: c891af6891890494ba3ee271754f46ee, type: 2}

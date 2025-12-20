@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: New Universal Render Pipeline Asset_Renderer
   m_EditorClassIdentifier:
   debugShaders:
-    debugReplacementPS: {fileID: 4800000, guid: d83fcd37f2f2c2847973f668cbc932f5, type: 3}
-    hdrDebugViewPS: {fileID: 4800000, guid: 2de4d7bd9910a8f48a5154bff48bf13d, type: 3}
+    debugReplacementPS: {fileID: 4800000, guid: 50926d05a8672ca46b49c70380ac57be, type: 3}
+    hdrDebugViewPS: {fileID: 4800000, guid: aeac7305364021543993d9ce2ff153f9, type: 3}
   probeVolumeResources:
     probeVolumeDebugShader: {fileID: 0}
     probeVolumeFragmentationDebugShader: {fileID: 0}
@@ -27,7 +27,7 @@ MonoBehaviour:
   m_RendererFeatureMap:
   m_UseNativeRenderPass: 0
   xrSystemData: {fileID: 0}
-  postProcessData: {fileID: 11400000, guid: 6ac9fa47e5d0dff46980ffab344be093, type: 2}
+  postProcessData: {fileID: 11400000, guid: e46b42f36c4fea740bba543f59facf3d, type: 2}
   m_AssetVersion: 2
   m_OpaqueLayerMask:
     serializedVersion: 2

@@ -24,7 +24,7 @@ MonoBehaviour:
   m_missingGlyphCharacter: 0
   m_ClearDynamicDataOnBuild: 1
   m_warningsDisabled: 0
-  m_defaultFontAsset: {fileID: 11400000, guid: a3670b9ca308a2f47aa36d51e3e1212b, type: 2}
+  m_defaultFontAsset: {fileID: 11400000, guid: 9807d137d89e1a045b17e73a6aa95721, type: 2}
   m_defaultFontAssetPath: Fonts & Materials/
   m_defaultFontSize: 36
   m_defaultAutoSizeMinRatio: 0.5
@@ -36,14 +36,14 @@ MonoBehaviour:
   m_fallbackFontAssets: []
   m_matchMaterialPreset: 1
   m_HideSubTextObjects: 0
-  m_defaultSpriteAsset: {fileID: 11400000, guid: 99668e4ebf32e2e43b5879eaf7870ed8, type: 2}
+  m_defaultSpriteAsset: {fileID: 11400000, guid: 74761f22524ae414993c7a1a3b3db478, type: 2}
   m_defaultSpriteAssetPath: Sprite Assets/
   m_enableEmojiSupport: 1
   m_MissingCharacterSpriteUnicode: 0
   m_EmojiFallbackTextAssets: []
   m_defaultColorGradientPresetsPath: Color Gradient Presets/
-  m_defaultStyleSheet: {fileID: 11400000, guid: 71483d59bf1230e40abea824385b296b, type: 2}
+  m_defaultStyleSheet: {fileID: 11400000, guid: 599ede44e2e6c0c44b14f1160b1f0f5c, type: 2}
   m_StyleSheetsResourcePath:
-  m_leadingCharacters: {fileID: 4900000, guid: 6697808c87945da40871860e2f3b9f55, type: 3}
-  m_followingCharacters: {fileID: 4900000, guid: 43c8e0882fc65264eaf96c4f7f85acbe, type: 3}
+  m_leadingCharacters: {fileID: 4900000, guid: 442b4af8c30e40845b703e4ee6d83e69, type: 3}
+  m_followingCharacters: {fileID: 4900000, guid: 859630c5386029d45b3583d115354033, type: 3}
   m_UseModernHangulLineBreakingRules: 0

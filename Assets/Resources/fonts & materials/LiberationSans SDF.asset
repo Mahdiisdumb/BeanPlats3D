@@ -35,7 +35,7 @@ MonoBehaviour:
     m_StrikethroughOffset: 18
     m_StrikethroughThickness: 6.298828
     m_TabWidth: 24
-  m_Material: {fileID: 2100000, guid: b0d7264c6527b9e4aabbf52294ebccdd, type: 2}
+  m_Material: {fileID: 2100000, guid: 775d8f85b78b32a4eaa8b0e2d3548d13, type: 2}
   m_SourceFontFileGUID: e3265ab4bf004d28a9537516768c1c75
   m_CreationSettings:
     sourceFontFileName:
@@ -4813,7 +4813,7 @@ MonoBehaviour:
     m_GlyphIndex: 2179
     m_Scale: 1
   m_AtlasTextures:
-  - {fileID: 2800000, guid: a1858f1d7b5b67340b59f6d4a9e1f997, type: 3}
+  - {fileID: 2800000, guid: fd8e4e2359801f44dae1d514a5b21af4, type: 3}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
   m_GetFontFeatures: 1
@@ -7904,7 +7904,7 @@ MonoBehaviour:
     m_MarkToMarkAdjustmentRecords: []
   m_ShouldReimportFontFeatures: 0
   m_FallbackFontAssetTable:
-  - {fileID: 11400000, guid: b402e73f1de1bb54a95c2ed664725077, type: 2}
+  - {fileID: 11400000, guid: 386870433d2ae29468cf2a0c3a7bee6f, type: 2}
   m_FontWeightTable:
   - regularTypeface: {fileID: 0}
     italicTypeface: {fileID: 0}
