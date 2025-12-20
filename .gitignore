@@ -75,3 +75,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /Rel/Windows/Bean Plats 3D_BackUpThisFolder_ButDontShipItWithYourGame
 /Rel/Windows/Bean Plats 3D_BurstDebugInformation_DoNotShip
+Rel/Windows/Windows.zip
