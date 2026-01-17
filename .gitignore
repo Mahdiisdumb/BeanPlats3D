@@ -78,3 +78,5 @@ crashlytics-build.properties
 Rel/Windows/Windows.zip
 Rel/Windows/BeanPlats3D.zip
 Rel/WebGL/WebGL.zip
+/Rel/Windows
+/Rel/Windows
