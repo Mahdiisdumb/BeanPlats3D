@@ -3218,7 +3218,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3239,7 +3239,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3512,7 +3512,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5545,6 +5545,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1699f5a0f014645b198a26c455a220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  objects:
+  - {fileID: 41}
+  - {fileID: 19}
+  - {fileID: 20}
+  highlightColor: {r: 0.066037714, g: 0.066037714, b: 0.066037714, a: 1}
 --- !u!1 &1619598802
 GameObject:
   m_ObjectHideFlags: 0

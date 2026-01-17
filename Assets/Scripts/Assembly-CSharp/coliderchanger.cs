@@ -1,16 +1,32 @@
 using UnityEngine;
-
-public class coliderchanger : MonoBehaviour
+public class RandomColliderHighlight : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject[] objects;
+    public Color highlightColor = Color.green;
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (objects == null || objects.Length == 0) return;
+        int randomIndex = Random.Range(0, objects.Length);
+        for (int i = 0; i < objects.Length; i++)
+        {
+            GameObject obj = objects[i];
+            BoxCollider box = obj.GetComponent<BoxCollider>();
+            Renderer rend = obj.GetComponent<Renderer>();
+            if (box == null || rend == null) continue;
+            if (i == randomIndex)
+            {
+                box.enabled = true;
+                Material unlitMat = new Material(Shader.Find("Unlit/Color"));
+                unlitMat.color = highlightColor;
+                rend.material = unlitMat;
+            }
+            else
+            {
+                box.enabled = false;
+                Material darkMat = new Material(Shader.Find("Unlit/Color"));
+                darkMat.color = Color.black;
+                rend.material = darkMat;
+            }
+        }
     }
 }

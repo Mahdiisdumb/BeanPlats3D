@@ -1,33 +1,20 @@
 using UnityEngine;
-
 [RequireComponent(typeof(CharacterController))]
 public class SC_FPSController : MonoBehaviour
 {
 	public float walkingSpeed = 7.5f;
-
 	public float runningSpeed = 11.5f;
-
 	public float jumpSpeed = 8f;
-
 	public float gravity = 20f;
-
 	public Camera playerCamera;
-
 	public float lookSpeed = 2f;
-
 	public float lookXLimit = 45f;
-
 	private GameObject mobileControls;
-
 	private CharacterController characterController;
-
 	private Vector3 moveDirection = Vector3.zero;
-
 	private float rotationX;
-
 	[HideInInspector]
 	public bool canMove = true;
-
 	private void Start()
 	{
 		characterController = GetComponent<CharacterController>();
@@ -42,7 +29,6 @@ public class SC_FPSController : MonoBehaviour
 			mobileControls.SetActive(value: false);
 		}
 	}
-
 	private void Update()
 	{
 		Vector3 vector = base.transform.TransformDirection(Vector3.forward);
