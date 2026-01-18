@@ -4258,7 +4258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36033afd18d5cb54fb1f3a524c3559dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTeleport
-  sceneName: Win
+  sceneName: Main Menu
 --- !u!1 &177080327
 GameObject:
   m_ObjectHideFlags: 0
@@ -5162,6 +5162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d7f500c8d67237243d859fda279dbca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Crash
+  gameOverScene: Main Menu
 --- !u!1 &1201035720
 GameObject:
   m_ObjectHideFlags: 0

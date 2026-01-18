@@ -3,6 +3,7 @@ public class RandomColliderHighlight : MonoBehaviour
 {
     public GameObject[] objects;
     public Color highlightColor = Color.green;
+    private Color defaultColor = Color.black;
     void Start()
     {
         if (objects == null || objects.Length == 0) return;
@@ -16,16 +17,14 @@ public class RandomColliderHighlight : MonoBehaviour
             if (i == randomIndex)
             {
                 box.enabled = true;
-                Material unlitMat = new Material(Shader.Find("Unlit/Color"));
-                unlitMat.color = highlightColor;
-                rend.material = unlitMat;
+                if (rend.material != null)
+                    rend.material.color = highlightColor;
             }
             else
             {
                 box.enabled = false;
-                Material darkMat = new Material(Shader.Find("Unlit/Color"));
-                darkMat.color = Color.black;
-                rend.material = darkMat;
+                if (rend.material != null)
+                    rend.material.color = defaultColor;
             }
         }
     }
