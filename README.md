@@ -10,9 +10,6 @@ You are **the last surviving bean**. Everyone else is dead. Your only way to rep
 - Your death **splits into 1000 new beans**, carrying on your legacy  
 
 > Platforming is your journey. The light is your doom. Survival is optional. Hilarity is guaranteed.
-
-Live demo: https://bean‑plats‑3d.vercel.app/
-
 ## Gameplay
 
 - **Platformer Mechanics:** Jump, dodge hazards, navigate levels  
